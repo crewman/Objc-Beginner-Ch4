@@ -99,6 +99,10 @@ int main(int argc, const char * argv[])
         
         NSLog(@"Multiply by 5: %g", [tiCalc accumulator]);
         
+        [tiCalc subtract:50];
+        
+        NSLog(@"Subtract by 50: %g", [tiCalc accumulator]);
+        NSLog(@"The total: %g", [tiCalc accumulator]);
         
     }
     return 0;
